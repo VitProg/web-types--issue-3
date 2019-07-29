@@ -34,5 +34,6 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "web-types": "./web-types.json"
 }

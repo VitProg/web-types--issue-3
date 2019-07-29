@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JetBrains/web-types/master/schema/web-types.schema.json",
+  "framework": "vue",
+  "name": "ui",
+  "version": "0.0.1",
+  "contributions": {
+    "html": {
+      "types-syntax": "typescript",
+      "tags": [
+        {
+          "name": "cmp-test",
+          "source-file": "./src/components/CTest.vue",
+          "attributes": [
+            {
+              "name": "prop1",
+              "type": "string",
+              "default": "default string"
+            },
+            {
+              "name": "prop2",
+              "type": "number",
+              "required": true
+            }
+          ],
+          "events": [
+            {
+              "name": "propsUpdated",
+              "arguments": [
+                {
+                  "name": "prop1",
+                  "type": "string"
+                },
+                {
+                  "name": "prop2",
+                  "type": "number"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "attributes": [
+
+      ]
+    }
+  }
+}
